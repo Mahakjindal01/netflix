@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("assets/images/bgimage.jpg/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_medium.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between ;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+} 
+.hero{
+    color: white;
+    position: relative;
+    justify-content: center;
+    height: calc(100% - 62px);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 30px;
+
+}
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    /* text-align: center; */
+}
+.hero>:nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+}
+.hero> :nth-child(3) {
+    font-size: 20px;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(75, 75, 75);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    font-weight: 900  ;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.3);
+    color: blueviolet;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-red-sn{
+background-color: red;
+color: white;
+}
+body{
+    background-color: black;
+}
+.first{
+    /* background-color: black; */
+    display:flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    color: rgb(252, 116, 116);
+    align-items: center;
+    height: 650px;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 38vw;
+    position:relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    right: 0;
+    top: 51px;
+}
+.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+}
+.faq h2{
+    text-align: center;
+}
+.faq{
+    color: white;
+    background-color: black;
+    padding: 36px;
+    max-width: 40vw;
+    margin: auto;
+
+}
+.faqbox:hover{
+    background-color: rgb(50, 50, 50);
+}
+.faqbox svg{
+    filter: invert(1);
+}
+.faqbox{
+    /* background-color: black; */
+    transition: all 1s ease-out;
+    color: white;
+    display: flex;
+    padding: 24px;
+    background-color: grey;
+    max-width: 40vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
